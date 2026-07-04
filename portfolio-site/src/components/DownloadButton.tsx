@@ -14,8 +14,7 @@ export default function DownloadButton({ className = '', children, showText = fa
   const [downloadSuccess, setDownloadSuccess] = useState(false)
 
   const handleDownload = () => {
-    // Direct download from public/uploads folder
-    window.open('/uploads/Hrishabh_Tripathi_Data_Engineer_Updated.pdf', '_blank')
+    window.open('/api/download-resume', '_blank')
     setDownloadSuccess(true)
     setTimeout(() => setDownloadSuccess(false), 3000)
   }
