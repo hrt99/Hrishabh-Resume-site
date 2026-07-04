@@ -25,7 +25,7 @@ export async function GET(request: NextRequest) {
       contentType = 'image/png'
     }
 
-    return new NextResponse(fileBuffer, {
+    return new NextResponse(fileBuffer.buffer, {
       headers: {
         'Content-Type': contentType,
         'Content-Disposition': `inline; filename="${fileName}"`,
