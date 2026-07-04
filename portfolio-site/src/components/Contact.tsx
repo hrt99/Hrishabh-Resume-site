@@ -37,10 +37,10 @@ export default function Contact({ personalInfo }: ContactProps) {
       <div className="container-max">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Let's Connect & Collaborate
+            Get In Touch
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Ready to discuss your next data engineering project? I'm passionate about turning complex data challenges into scalable solutions. Let's build something amazing together!
+            I'm always open to discussing new opportunities, collaborations, or just connecting with fellow data professionals.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mt-6 rounded-full"></div>
         </div>
@@ -50,14 +50,14 @@ export default function Contact({ personalInfo }: ContactProps) {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                🚀 Ready to Transform Your Data?
+                � Let's Connect
               </h3>
               <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg leading-relaxed text-justify">
-                Whether you need to build robust data pipelines, optimize cloud infrastructure, or create insightful dashboards, I'm here to help. Let's discuss how we can turn your data into your competitive advantage!
+                I'm actively seeking opportunities where I can contribute my expertise in data engineering, cloud technologies, and analytics. Feel free to reach out to discuss potential roles, technical challenges, or industry insights.
               </p>
               <div className="p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
                 <p className="text-sm text-blue-800 dark:text-blue-200 font-medium">
-                  💡 Currently available for freelance projects and full-time opportunities
+                  💼 Open to full-time opportunities and professional collaborations
                 </p>
               </div>
             </div>
