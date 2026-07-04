@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// Export function to get current password for login
-export function getCurrentPassword() {
+// Helper function to get current password for login (not exported from route)
+function getCurrentPassword() {
   return currentAdminPassword
 }
