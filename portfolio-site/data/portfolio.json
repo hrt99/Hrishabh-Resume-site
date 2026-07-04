@@ -461,12 +461,6 @@
       "date": "2024",
       "file": "FY24 Q4 Champs Award.pdf",
       "url": "/api/admin/download?file=Achievements%2FFY24%20Q4%20Champs%20Award.pdf"
-    },
-    {
-      "id": "3",
-      "title": "5 Star Codechef",
-      "description": "Achieved 5-star rating on Codechef competitive programming platform",
-      "date": "2023"
     }
   ],
   "languages": [
