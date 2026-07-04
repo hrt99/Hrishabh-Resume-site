@@ -124,12 +124,9 @@
       "skills": [
         "Power BI",
         "DAX",
-        "Azure Synapse",
-        "Azure Databricks",
-        "Databricks",
+        "Azure Synapse Analytics",
         "Tableau",
-        "Looker",
-        "Grafana"
+        "Looker"
       ]
     },
     {
@@ -137,12 +134,10 @@
       "skills": [
         "Azure Data Factory",
         "Informatica PowerCenter",
-        "Informatica ETL",
         "AWS Glue",
         "Apache Airflow",
         "PySpark",
-        "dbt",
-        "SSIS"
+        "dbt"
       ]
     },
     {
@@ -151,12 +146,10 @@
         "Snowflake",
         "Azure Data Lake Gen2",
         "Azure Blob Storage",
-        "Azure Synapse",
+        "Azure Synapse Analytics",
         "AWS S3",
         "AWS Redshift",
-        "Azure SQL Database",
-        "PostgreSQL",
-        "MongoDB"
+        "Azure SQL Database"
       ]
     },
     {
@@ -167,19 +160,16 @@
         "Tidal",
         "Control-M",
         "PowerShell",
-        "Azure Logic Apps"
+        "Azure Logic Apps",
+        "Power Automate"
       ]
     },
     {
       "category": "Database Management",
       "skills": [
         "Azure SQL Database",
-        "Oracle Database Management",
-        "Oracle SQL Developer",
-        "SQL Server",
-        "PostgreSQL",
-        "MongoDB",
-        "Redis"
+        "Oracle Database",
+        "SQL Server"
       ]
     },
     {
@@ -191,10 +181,7 @@
         "PowerShell",
         "VBA",
         "Power Query",
-        "Bash",
-        "JavaScript",
-        "C#",
-        "Scala"
+        "Bash"
       ]
     },
     {
@@ -202,9 +189,8 @@
       "skills": [
         "Linux",
         "Windows Server",
-        "Docker",
-        "Kubernetes",
         "Git",
+        "Bitbucket",
         "Eclipse",
         "Visual Studio Code"
       ]
