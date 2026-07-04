@@ -63,8 +63,8 @@ export default function SkillsWithLogos({ skills }: SkillsWithLogosProps) {
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mx-auto mt-6 rounded-full animate-gradient-shift"></div>
         </div>
 
-        {/* Category Tabs */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        {/* Desktop: Category Tabs */}
+        <div className="hidden md:flex flex-wrap justify-center gap-4 mb-12">
           {skills?.map((skill, index) => (
             <button
               key={index}
@@ -80,8 +80,8 @@ export default function SkillsWithLogos({ skills }: SkillsWithLogosProps) {
           )) || []}
         </div>
 
-        {/* Skills List */}
-        <div className="flex flex-wrap justify-center gap-3 mb-16">
+        {/* Desktop: Active Category Skills */}
+        <div className="hidden md:flex flex-wrap justify-center gap-3 mb-16">
           {skills[activeCategory]?.skills?.map((skillName, index) => (
             <span
               key={skillName}
@@ -90,6 +90,31 @@ export default function SkillsWithLogos({ skills }: SkillsWithLogosProps) {
             >
               {skillName}
             </span>
+          )) || []}
+        </div>
+
+        {/* Mobile: All Categories with Skills */}
+        <div className="md:hidden space-y-8 mb-16">
+          {skills?.map((skill, categoryIndex) => (
+            <div 
+              key={categoryIndex}
+              className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg animate-slide-up"
+              style={{ animationDelay: `${categoryIndex * 0.1}s` }}
+            >
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4 pb-3 border-b-2 border-indigo-500">
+                {skill.category}
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {skill.skills?.map((skillName, index) => (
+                  <span
+                    key={skillName}
+                    className="px-3 py-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-lg font-semibold text-sm shadow-md"
+                  >
+                    {skillName}
+                  </span>
+                )) || []}
+              </div>
+            </div>
           )) || []}
         </div>
         
