@@ -45,7 +45,7 @@ export default function SkillsWithLogos({ skills }: SkillsWithLogosProps) {
   const [activeCategory, setActiveCategory] = useState(0)
 
   return (
-    <section className="section-padding bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 dark:from-indigo-900/20 dark:via-purple-900/20 dark:to-pink-900/20">
+    <section id="skills" className="section-padding bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 dark:from-indigo-900/20 dark:via-purple-900/20 dark:to-pink-900/20">
       <div className="container-max">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
