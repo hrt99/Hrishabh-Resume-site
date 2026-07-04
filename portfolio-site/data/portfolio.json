@@ -104,95 +104,119 @@
   ],
   "skills": [
     {
-      "category": "Cloud Computing Platforms",
+      "category": "Data Engineering & Processing",
       "skills": [
-        "Microsoft Azure",
-        "AWS",
         "Azure Data Factory",
         "Azure Databricks",
-        "Azure Monitor",
-        "Azure SQL Database",
-        "Azure Data Lake Gen2",
-        "Azure Blob Storage",
-        "AWS Glue",
-        "AWS Redshift",
-        "AWS S3"
+        "ETL/ELT Pipelines",
+        "Informatica PowerCenter",
+        "PySpark",
+        "Data Transformation"
       ]
     },
     {
-      "category": "Business Intelligence and Analytics",
+      "category": "Database & Querying",
+      "skills": [
+        "Advanced SQL",
+        "Snowflake",
+        "Azure SQL Database",
+        "Oracle SQL",
+        "Db2",
+        "Query Optimization",
+        "Data Modeling"
+      ]
+    },
+    {
+      "category": "Data Warehousing & Storage",
+      "skills": [
+        "Azure Data Lake Gen2",
+        "Azure Blob Storage",
+        "Azure Synapse Analytics"
+      ]
+    },
+    {
+      "category": "Business Intelligence",
       "skills": [
         "Power BI",
         "DAX",
-        "Azure Synapse Analytics",
-        "Tableau",
-        "Looker"
+        "Dashboard Development",
+        "Reporting Automation",
+        "Advanced Excel (Power Query, VBA)"
       ]
     },
     {
-      "category": "Data Integration and ETL",
+      "category": "Automation & Scripting",
       "skills": [
-        "Azure Data Factory",
-        "Informatica PowerCenter",
-        "AWS Glue",
-        "Apache Airflow",
-        "PySpark",
-        "dbt"
+        "Python (Tkinter, ttkbootstrap)",
+        "Selenium",
+        "PowerShell",
+        "Bash",
+        "Workflow Automation"
       ]
     },
     {
-      "category": "Data Warehousing and Storage",
+      "category": "Orchestration & Workflow",
       "skills": [
-        "Snowflake",
-        "Azure Data Lake Gen2",
-        "Azure Blob Storage",
-        "Azure Synapse Analytics",
-        "AWS S3",
-        "AWS Redshift",
-        "Azure SQL Database"
-      ]
-    },
-    {
-      "category": "Job Scheduling and Automation",
-      "skills": [
-        "Azure Data Factory",
-        "Apache Airflow",
-        "Tidal",
         "Control-M",
-        "PowerShell",
-        "Azure Logic Apps",
-        "Power Automate"
+        "Tidal",
+        "Airflow",
+        "Dependency Management"
       ]
     },
     {
-      "category": "Database Management",
+      "category": "Cloud & Platforms",
       "skills": [
-        "Azure SQL Database",
-        "Oracle Database",
-        "SQL Server"
+        "Microsoft Azure",
+        "AWS",
+        "Databricks"
       ]
     },
     {
-      "category": "Programming Languages",
+      "category": "Mainframe Technologies",
       "skills": [
-        "Python",
-        "SQL",
-        "Java",
-        "PowerShell",
-        "VBA",
-        "Power Query",
-        "Bash"
+        "ISPF",
+        "JCL",
+        "COBOL",
+        "VSAM",
+        "GDG",
+        "TSO",
+        "FTP",
+        "Batch Processing"
       ]
     },
     {
-      "category": "Operating Systems & Tools",
+      "category": "Development Practices",
+      "skills": [
+        "Agile",
+        "Jira",
+        "Incident Management",
+        "Change & Release Management",
+        "DevOps Concepts",
+        "Git"
+      ]
+    },
+    {
+      "category": "Additional Exposure",
+      "skills": [
+        "Java (Eclipse)",
+        "IBM WebSphere",
+        "Application Deployment"
+      ]
+    },
+    {
+      "category": "AI & Machine Learning",
+      "skills": [
+        "Azure OpenAI",
+        "LLM & RAG",
+        "Azure AI Services",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "category": "Operating Systems",
       "skills": [
         "Linux",
-        "Windows Server",
-        "Git",
-        "Bitbucket",
-        "Eclipse",
-        "Visual Studio Code"
+        "Windows"
       ]
     }
   ],
