@@ -86,10 +86,10 @@ export default async function RolePage({ params }: { params: { role: string } })
               </h3>
               <p className="text-blue-200 animate-wave">
                 {portfolioData.personalInfo.title.split('|').map((part, index, array) => (
-                  <span key={index}>
-                    {part.trim()}
+                  <span key={index} className="inline-block">
+                    <span className="whitespace-nowrap">{part.trim()}</span>
                     {index < array.length - 1 && (
-                      <span className="text-sm mx-2 text-blue-300/50">|</span>
+                      <span className="text-xs mx-1 text-blue-300/30 font-light"> | </span>
                     )}
                   </span>
                 ))}

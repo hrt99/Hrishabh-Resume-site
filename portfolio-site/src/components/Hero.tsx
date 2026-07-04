@@ -68,10 +68,10 @@ export default function Hero({ personalInfo, roleResume }: HeroProps) {
               </h1>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-700 dark:text-gray-300 animate-slide-up" style={{animationDelay: '0.2s'}}>
                 {personalInfo.title.split('|').map((part, index, array) => (
-                  <span key={index}>
-                    {part.trim()}
+                  <span key={index} className="inline-block">
+                    <span className="whitespace-nowrap">{part.trim()}</span>
                     {index < array.length - 1 && (
-                      <span className="text-sm sm:text-base md:text-lg mx-2 text-gray-400 dark:text-gray-500 font-normal">|</span>
+                      <span className="text-xs mx-1 sm:mx-2 text-gray-400 dark:text-gray-500 font-light opacity-50"> | </span>
                     )}
                   </span>
                 ))}
