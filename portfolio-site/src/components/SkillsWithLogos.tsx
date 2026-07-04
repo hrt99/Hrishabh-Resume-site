@@ -13,6 +13,7 @@ const techCategories = {
     { name: 'DATABRICKS.png', title: 'Azure Databricks', color: 'from-red-500 to-orange-500' },
     { name: 'SNOWFLAKE.png', title: 'Snowflake', color: 'from-cyan-400 to-blue-500' },
     { name: 'POWER BI.png', title: 'Power BI', color: 'from-yellow-500 to-orange-500' },
+    { name: 'Microsoft Fabric.jpg', title: 'Microsoft Fabric', color: 'from-purple-500 to-blue-600' },
     { name: 'ORACLE.png', title: 'Oracle Database', color: 'from-red-600 to-red-700' },
     { name: 'DB2.png', title: 'IBM Db2', color: 'from-blue-700 to-cyan-600' }
   ],

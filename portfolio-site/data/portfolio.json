@@ -134,7 +134,8 @@
       "skills": [
         "Azure Data Lake Gen2",
         "Azure Blob Storage",
-        "Azure Synapse Analytics"
+        "Azure Synapse Analytics",
+        "Microsoft Fabric"
       ]
     },
     {
@@ -448,7 +449,7 @@
       "file": "Linux_Complete_Guide.pdf"
     }
   ],
-  "resumeFile": "Hrishabh_Tripathi_Data_Engineer.pdf",
+  "resumeFile": "Hrishabh_Tripathi_Data_Engineer_Updated.pdf",
   "achievements": [
     {
       "id": "1",
