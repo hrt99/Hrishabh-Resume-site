@@ -56,7 +56,7 @@ export default function Experience({ experiences }: ExperienceProps) {
                         {exp.description.map((desc, i) => (
                           <li key={i} className="flex items-start gap-4 text-gray-800 dark:text-gray-200 text-lg">
                             <div className="w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mt-1 flex-shrink-0 shadow-sm"></div>
-                            <span className="leading-relaxed font-medium text-justify hyphens-auto">{desc}</span>
+                            <span className="leading-relaxed font-medium text-justify">{desc}</span>
                           </li>
                         ))}
                       </ul>

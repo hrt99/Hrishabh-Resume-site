@@ -52,7 +52,7 @@ export default function Contact({ personalInfo }: ContactProps) {
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
                 🚀 Ready to Transform Your Data?
               </h3>
-              <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg leading-relaxed text-justify hyphens-auto">
+              <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg leading-relaxed text-justify">
                 Whether you need to build robust data pipelines, optimize cloud infrastructure, or create insightful dashboards, I'm here to help. Let's discuss how we can turn your data into your competitive advantage!
               </p>
               <div className="p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
