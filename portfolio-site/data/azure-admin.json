@@ -1,0 +1,89 @@
+{
+  "personalInfo": {
+    "name": "Hrishabh Tripathi",
+    "title": "Azure Cloud Administrator | Infrastructure Specialist",
+    "email": "tripathihrishabh1@gmail.com",
+    "phone": "+91 9650133543",
+    "location": "Lucknow, India",
+    "linkedin": "https://in.linkedin.com/in/hrishabh-tripathi-969359188",
+    "github": "https://github.com/hrt99",
+    "summary": "Azure Administrator with 3+ years of experience managing Azure infrastructure, implementing security policies, and optimizing cloud resources for enterprise environments. Expertise in Azure virtual machines, monitoring, and automation."
+  },
+  "introLetter": "A",
+  "experience": [
+    {
+      "id": "1",
+      "company": "DXC Technology",
+      "position": "Azure Cloud Administrator",
+      "duration": "Aug 2022 - Present",
+      "location": "Hybrid",
+      "description": [
+        "Managed Azure Cloud Services for infrastructure, provisioning virtual machines, storage accounts, and networking components",
+        "Utilized Azure Monitor for proactive monitoring of application health and performance metrics, ensuring rapid incident response",
+        "Optimized Azure virtual machine resource management, contributing to 25% improvement in system performance",
+        "Managed and resolved technical issues across Production, Integration, and Development environments",
+        "Implemented automation using PowerShell for recurring administrative tasks, saving over 90% of manual effort",
+        "Ensured continuous high availability and optimal system performance through Linux server management"
+      ],
+      "technologies": ["Azure Virtual Machines", "Azure Monitor", "Azure Storage", "PowerShell", "Linux", "Networking", "Azure Security"]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Jaypee University of Information Technology",
+      "degree": "B.Tech (HONS) - Computer Science & Engineering",
+      "duration": "2018 - 2022",
+      "gpa": "8.5 CGPA"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Azure Infrastructure",
+      "skills": ["Azure Virtual Machines", "Azure Security", "Azure Monitor", "Azure Storage", "Networking"]
+    },
+    {
+      "category": "Administration & Automation",
+      "skills": ["PowerShell", "Linux", "Windows Server", "Identity Management", "System Administration"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Azure Infrastructure Optimization",
+      "description": "Optimized Azure cloud infrastructure by implementing efficient resource management strategies, monitoring solutions, and automation scripts, resulting in improved performance and cost efficiency.",
+      "technologies": ["Azure Virtual Machines", "Azure Monitor", "PowerShell", "Azure Storage"]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "name": "Microsoft Azure Fundamentals (AZ-900)",
+      "issuer": "Microsoft",
+      "date": "Nov 2022",
+      "credentialId": "I487-8768",
+      "url": "/api/admin/download?file=Certificates%2FHrishabh%20AZ900.pdf",
+      "file": "Hrishabh AZ900.pdf"
+    },
+    {
+      "id": "2",
+      "name": "AWS Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "Mar 2024",
+      "expires": "Dec 2027",
+      "credentialId": "1aeac163493b4365bee282b5b0130469",
+      "url": "/api/admin/download?file=Certificates%2FAWS%20Certified%20Cloud%20Practitioner%20certificate.pdf",
+      "file": "AWS Certified Cloud Practitioner certificate.pdf"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "title": "FY24 Q4 Champs Award",
+      "description": "Received from DXC Technology Pvt Ltd for being one of the top performers",
+      "date": "2024",
+      "file": "FY24 Q4 Champs Award.pdf",
+      "url": "/api/admin/download?file=Achievements%2FFY24%20Q4%20Champs%20Award.pdf"
+    }
+  ]
+}

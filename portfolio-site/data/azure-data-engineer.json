@@ -1,0 +1,108 @@
+{
+  "personalInfo": {
+    "name": "Hrishabh Tripathi",
+    "title": "Azure Data Engineer | ETL/ELT Developer",
+    "email": "tripathihrishabh1@gmail.com",
+    "phone": "+91 9650133543",
+    "location": "Lucknow, India",
+    "linkedin": "https://in.linkedin.com/in/hrishabh-tripathi-969359188",
+    "github": "https://github.com/hrt99",
+    "summary": "Certified Azure Data Engineer with 3+ years of expertise in building scalable data pipelines, ETL processes, and cloud-based analytics solutions using Azure Data Factory, Databricks, and Synapse Analytics. Proven track record of optimizing data workflows and achieving 25% performance improvements."
+  },
+  "introLetter": "A",
+  "experience": [
+    {
+      "id": "1",
+      "company": "DXC Technology",
+      "position": "Analyst 2 - Azure Data Engineer",
+      "duration": "Aug 2022 - Present",
+      "location": "Hybrid",
+      "description": [
+        "Implemented Azure Data Factory for ETL processes, orchestrating data workflows across Azure services and on-premises sources",
+        "Achieved 25% improvement in system performance by optimizing Azure Data Factory workflows and Azure Databricks processes",
+        "Managed Azure Cloud Services infrastructure, provisioning virtual machines, storage accounts, and networking components",
+        "Integrated Azure Databricks for high-performance data processing and analytics, enhancing ETL pipeline scalability",
+        "Utilized Azure Monitor for proactive application health monitoring and performance metrics tracking",
+        "Built automated data pipelines using Azure Data Factory with Azure Data Lake Gen2 and Azure SQL Database integration"
+      ],
+      "technologies": ["Azure Data Factory", "Azure Databricks", "Azure Monitor", "Azure SQL Database", "Azure Data Lake Gen2", "Python", "SQL", "PowerShell"]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Jaypee University of Information Technology",
+      "degree": "B.Tech (HONS) - Computer Science & Engineering",
+      "duration": "2018 - 2022",
+      "gpa": "8.5 CGPA"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Azure Data Services",
+      "skills": ["Azure Data Factory", "Azure Databricks", "Azure Synapse", "Azure Data Lake Gen2", "Azure SQL Database", "Azure Monitor"]
+    },
+    {
+      "category": "Programming & Analytics",
+      "skills": ["Python", "SQL", "Spark", "Power BI", "PowerShell"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Azure Data Factory for Data Engineers - Covid19 project",
+      "description": "Built and managed automated data pipelines using Azure Data Factory (ADF) to ingest, transform, and load COVID-19 data from external APIs and Azure Blob Storage into Azure Data Lake Gen2 and Azure SQL Database.",
+      "technologies": ["Azure Data Factory", "Azure Databricks", "Azure Data Lake Gen2", "Azure SQL Database", "Azure Monitor"]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "name": "Microsoft Azure Data Engineer Associate (DP-203)",
+      "issuer": "Microsoft",
+      "date": "Sep 2024",
+      "expires": "Dec 2025",
+      "credentialId": "5848E05BD7CE06D0",
+      "url": "/api/admin/download?file=Certificates%2FDP203.pdf",
+      "file": "DP203.pdf"
+    },
+    {
+      "id": "2",
+      "name": "Microsoft Azure Data Fundamentals (DP-900)",
+      "issuer": "Microsoft",
+      "date": "Nov 2022",
+      "credentialId": "I499-6663",
+      "url": "/api/admin/download?file=Certificates%2FHrishabh%20DP900.pdf",
+      "file": "Hrishabh DP900.pdf"
+    },
+    {
+      "id": "3",
+      "name": "Microsoft Azure Fundamentals (AZ-900)",
+      "issuer": "Microsoft",
+      "date": "Nov 2022",
+      "credentialId": "I487-8768",
+      "url": "/api/admin/download?file=Certificates%2FHrishabh%20AZ900.pdf",
+      "file": "Hrishabh AZ900.pdf"
+    },
+    {
+      "id": "4",
+      "name": "AWS Certified Data Engineer - Associate",
+      "issuer": "Amazon Web Services",
+      "date": "Dec 2024",
+      "expires": "Dec 2027",
+      "credentialId": "affd208538634faab21b74ee2ccd39d2",
+      "url": "/api/admin/download?file=Certificates%2FAWS%20Certified%20Data%20Engineer%20-%20Associate%20certificate.pdf",
+      "file": "AWS Certified Data Engineer - Associate certificate.pdf"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "title": "FY24 Q4 Champs Award",
+      "description": "Received from DXC Technology Pvt Ltd for being one of the top performers",
+      "date": "2024",
+      "file": "FY24 Q4 Champs Award.pdf",
+      "url": "/api/admin/download?file=Achievements%2FFY24%20Q4%20Champs%20Award.pdf"
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "personalInfo": {
+    "name": "Hrishabh Tripathi",
+    "title": "Data Engineer | Azure | Databricks | Snowflake | SQL | Power BI",
+    "email": "tripathihrishabh1@gmail.com",
+    "phone": "+91 9650133543",
+    "location": "Lucknow, India",
+    "linkedin": "https://in.linkedin.com/in/hrishabh-tripathi-969359188",
+    "github": "https://github.com/hrt99",
+    "summary": "Experienced Data Engineer and BI & Analytics professional with 3+ years of experience designing scalable ETL/ELT pipelines, data warehouses, and analytics solutions. Skilled in Azure Data Factory, Azure Databricks, Snowflake, PySpark, and advanced SQL for building reliable, high-performance data platforms. Strong background in data modeling, workflow orchestration, cloud technologies, and production support across enterprise environments."
+  },
+  "experience": [
+    {
+      "id": "1",
+      "company": "DXC Technology",
+      "position": "Analyst 1 - Data Engineer",
+      "duration": "Aug 2022 - Present",
+      "location": "Hybrid",
+      "description": [
+        "Designed and implemented scalable ETL/ELT pipelines using Azure Data Factory and Informatica to ingest data from multiple on-premises and cloud sources into Azure Data Lake and downstream data stores for analytics and reporting",
+        "Automated and optimized data workflows using Azure Data Factory pipelines, improving orchestration efficiency, minimizing manual intervention, and ensuring timely data availability for downstream systems",
+        "Improved data processing performance by 25% through advanced SQL optimization and workload tuning across Azure SQL and Snowflake environments; designed Snowflake data warehouse solutions delivering curated, analysis-ready datasets for BI consumption",
+        "Implemented large-scale data transformation using Azure Databricks and PySpark; led migration from on-premises to Azure Data Lake and Blob Storage, ensuring data integrity and efficient storage management",
+        "Designed and developed robust automation solutions using Python (Tkinter, ttkbootstrap), Selenium, Power Query, VBA, and SQL scripts, reducing manual effort by over 90%; led process optimization initiatives integrating intelligent tooling to accelerate development",
+        "Developed and maintained enterprise Power BI dashboards including Incident Management, Jira, Resource Utilization, Innovation Program, WBS, and Account Demand tracking; designed centralized Power BI App with automated refresh and streamlined access",
+        "Developed automated Incident and RITM alerting solutions using Power Automate and Microsoft Teams, enabling real-time notifications and improving response times",
+        "Implemented monitoring, logging, and validation frameworks ensuring high data quality and reliable pipeline execution; collaborated in Agile environment supporting DevOps practices including version control, change management, and CVS to Bitbucket migration",
+        "Drove rapid incident resolution by leading root cause analysis, environment validation, and deployment support for production incidents and change/release activities",
+        "Managed and resolved technical issues across Production, Integration, and Development environments, ensuring continuous high availability and optimal system performance through Linux server management",
+        "Utilized Tidal and Control-M for job scheduling and workflow orchestration, ensuring timely data loading and addressing dependencies across complex data pipelines",
+        "Worked with Java Eclipse for XML processing, reviewed logs to identify and troubleshoot issues, and investigated Java code when required to resolve system-related problems"
+      ],
+      "technologies": [
+        "Azure Data Factory",
+        "Azure Databricks",
+        "Snowflake",
+        "PySpark",
+        "Informatica PowerCenter",
+        "Azure SQL Database",
+        "Azure Data Lake Gen2",
+        "Power BI",
+        "DAX",
+        "Python",
+        "SQL",
+        "Power Automate",
+        "Tidal",
+        "Control-M",
+        "Oracle Database",
+        "Linux",
+        "Java Eclipse",
+        "PowerShell",
+        "VBA",
+        "Power Query",
+        "Git",
+        "Bitbucket"
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Research Design and Standards Organization",
+      "position": "Data Intern",
+      "duration": "Jul 2021 - Aug 2021",
+      "description": [
+        "Worked on data analysis and research projects for government organization",
+        "Gained hands-on experience in data processing and statistical analysis techniques",
+        "Contributed to research initiatives and data-driven decision making processes"
+      ],
+      "technologies": [
+        "Data Analysis",
+        "Statistical Analysis",
+        "Research Methods",
+        "Excel"
+      ]
+    },
+    {
+      "id": "3",
+      "company": "Durapid Technologies Private Limited",
+      "position": "Web Development Intern",
+      "duration": "Feb 2021 - Apr 2021",
+      "description": [
+        "Designed and implemented webpages for startup clients according to specific requirements and business needs",
+        "Conferred with clients to discuss and determine optimal layout design and user experience",
+        "Researched new software technologies and design concepts to enhance development capabilities",
+        "Designed and implemented a Railway Reservation System to manage ticket bookings, cancellations, passenger records, and seat availability efficiently"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web Development",
+        "UI/UX Design",
+        "Database Management"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Jaypee University of Information Technology",
+      "degree": "B.Tech (HONS) - Computer Science & Engineering",
+      "duration": "2018 - 2022",
+      "gpa": "8.5 CGPA"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Cloud Computing Platforms",
+      "skills": [
+        "Microsoft Azure",
+        "AWS",
+        "Azure Data Factory",
+        "Azure Databricks",
+        "Azure Monitor",
+        "Azure SQL Database",
+        "Azure Data Lake Gen2",
+        "Azure Blob Storage",
+        "AWS Glue",
+        "AWS Redshift",
+        "AWS S3"
+      ]
+    },
+    {
+      "category": "Business Intelligence and Analytics",
+      "skills": [
+        "Power BI",
+        "DAX",
+        "Azure Synapse",
+        "Azure Databricks",
+        "Databricks",
+        "Tableau",
+        "Looker",
+        "Grafana"
+      ]
+    },
+    {
+      "category": "Data Integration and ETL",
+      "skills": [
+        "Azure Data Factory",
+        "Informatica PowerCenter",
+        "Informatica ETL",
+        "AWS Glue",
+        "Apache Airflow",
+        "PySpark",
+        "dbt",
+        "SSIS"
+      ]
+    },
+    {
+      "category": "Data Warehousing and Storage",
+      "skills": [
+        "Snowflake",
+        "Azure Data Lake Gen2",
+        "Azure Blob Storage",
+        "Azure Synapse",
+        "AWS S3",
+        "AWS Redshift",
+        "Azure SQL Database",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "category": "Job Scheduling and Automation",
+      "skills": [
+        "Azure Data Factory",
+        "Apache Airflow",
+        "Tidal",
+        "Control-M",
+        "PowerShell",
+        "Azure Logic Apps"
+      ]
+    },
+    {
+      "category": "Database Management",
+      "skills": [
+        "Azure SQL Database",
+        "Oracle Database Management",
+        "Oracle SQL Developer",
+        "SQL Server",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "category": "Programming Languages",
+      "skills": [
+        "Python",
+        "SQL",
+        "Java",
+        "PowerShell",
+        "VBA",
+        "Power Query",
+        "Bash",
+        "JavaScript",
+        "C#",
+        "Scala"
+      ]
+    },
+    {
+      "category": "Operating Systems & Tools",
+      "skills": [
+        "Linux",
+        "Windows Server",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Eclipse",
+        "Visual Studio Code"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Azure Data Pipeline (Azure Data Factory + Databricks + Snowflake)",
+      "description": "Designed and implemented ETL/ELT pipelines using Azure Data Factory to ingest data from APIs, databases, and cloud storage into Azure Data Lake and Snowflake. Utilized Azure Databricks (PySpark) for scalable data transformation and processing.",
+      "technologies": [
+        "Azure Data Factory",
+        "Azure Databricks",
+        "Snowflake",
+        "PySpark",
+        "Azure Data Lake Gen2",
+        "Azure SQL Database",
+        "Azure Monitor",
+        "Azure DevOps"
+      ],
+      "showCode": false,
+      "showLinks": false
+    },
+    {
+      "id": "2",
+      "title": "Enterprise Power BI Reporting Platform",
+      "description": "Developed and maintained Power BI solutions for Incident Management, Jira, Resource Utilization, Innovation Program, WBS, Account Demand, and Change Project tracking. Published and managed reports through a centralized Power BI App with automated refresh scheduling.",
+      "technologies": [
+        "Power BI",
+        "DAX",
+        "SQL Server",
+        "Azure SQL Database",
+        "Power Query",
+        "Row-Level Security"
+      ],
+      "showCode": false,
+      "showLinks": false
+    },
+    {
+      "id": "3",
+      "title": "Incident & RITM Alert Automation (Power Automate + Microsoft Teams)",
+      "description": "Developed automated workflows for Incident and RITM monitoring, delivering real-time Microsoft Teams notifications and reducing manual monitoring effort.",
+      "technologies": [
+        "Power Automate",
+        "Microsoft Teams",
+        "Azure Logic Apps",
+        "REST APIs"
+      ],
+      "showCode": false,
+      "showLinks": false
+    },
+    {
+      "id": "4",
+      "title": "Reporting & Validation Automation Suite (Python + SQL + Excel)",
+      "description": "Built automation tools using Python, SQL, Power Query, and Excel for reporting, validation, and reconciliation processes, reducing manual effort by over 90%.",
+      "technologies": [
+        "Python",
+        "Tkinter",
+        "ttkbootstrap",
+        "Selenium",
+        "SQL",
+        "Power Query",
+        "VBA",
+        "Excel"
+      ],
+      "showCode": false,
+      "showLinks": false
+    },
+    {
+      "id": "5",
+      "title": "Operational Support & Mainframe Automation Tools",
+      "description": "Built Python-based utilities for Mainframe FTP operations including job status monitoring, JCL library syncing, and dataset management. Developed tools for XML processing, batch monitoring, incident and OneForm reporting, and Eclipse automation.",
+      "technologies": [
+        "Python",
+        "Tkinter",
+        "ttkbootstrap",
+        "Selenium",
+        "SQL",
+        "FTP",
+        "Mainframe",
+        "JCL"
+      ],
+      "showCode": false,
+      "showLinks": false
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "name": "Microsoft Azure Fundamentals (AZ-900)",
+      "issuer": "Microsoft",
+      "date": "Nov 2022",
+      "credentialId": "I487-8768",
+      "url": "/api/admin/download?file=Certificates%2FHrishabh%20AZ900.pdf",
+      "file": "Hrishabh AZ900.pdf"
+    },
+    {
+      "id": "2",
+      "name": "Microsoft Azure Data Fundamentals (DP-900)",
+      "issuer": "Microsoft",
+      "date": "Nov 2022",
+      "credentialId": "I499-6663",
+      "url": "/api/admin/download?file=Certificates%2FHrishabh%20DP900.pdf",
+      "file": "Hrishabh DP900.pdf"
+    },
+    {
+      "id": "3",
+      "name": "Microsoft Azure Data Engineer Associate (DP-203)",
+      "issuer": "Microsoft",
+      "date": "Sep 2024",
+      "expires": "Dec 2025",
+      "credentialId": "5848E05BD7CE06D0",
+      "url": "/api/admin/download?file=Certificates%2FDP203.pdf",
+      "file": "DP203.pdf"
+    },
+    {
+      "id": "4",
+      "name": "Microsoft Power BI Data Analyst Associate (PL-300)",
+      "issuer": "Microsoft",
+      "date": "May 2025",
+      "expires": "May 2026",
+      "credentialId": "155Y77-5B5BDB",
+      "url": "/api/admin/download?file=Certificates%2FPL300.pdf",
+      "file": "PL300.pdf"
+    },
+    {
+      "id": "5",
+      "name": "Microsoft Azure AI Fundamentals (AI-900)",
+      "issuer": "Microsoft",
+      "date": "Dec 2024",
+      "credentialId": "0543F0-22CD8L",
+      "url": "/api/admin/download?file=Certificates%2FAI900.pdf",
+      "file": "AI900.pdf"
+    },
+    {
+      "id": "6",
+      "name": "AWS Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "Mar 2024",
+      "expires": "Dec 2027",
+      "credentialId": "1aeac163493b4365bee282b5b0130469",
+      "url": "/api/admin/download?file=Certificates%2FAWS%20Certified%20Cloud%20Practitioner%20certificate.pdf",
+      "file": "AWS Certified Cloud Practitioner certificate.pdf"
+    },
+    {
+      "id": "7",
+      "name": "AWS Certified Data Engineer - Associate",
+      "issuer": "Amazon Web Services",
+      "date": "Dec 2024",
+      "expires": "Dec 2027",
+      "credentialId": "affd208538634faab21b74ee2ccd39d2",
+      "url": "/api/admin/download?file=Certificates%2FAWS%20Certified%20Data%20Engineer%20-%20Associate%20certificate.pdf",
+      "file": "AWS Certified Data Engineer - Associate certificate.pdf"
+    },
+    {
+      "id": "8",
+      "name": "AWS Certified AI Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "Jun 2025",
+      "expires": "Jun 2028",
+      "credentialId": "efa1a2c1bc254ad9accaab5a64e00415",
+      "url": "/api/admin/download?file=Certificates%2FAWS%20Certified%20AI%20Practitioner%20certificate.pdf",
+      "file": "AWS Certified AI Practitioner certificate.pdf"
+    },
+    {
+      "id": "9",
+      "name": "LOMA281 Certified",
+      "issuer": "LOMA",
+      "date": "Sep 2024",
+      "url": "/api/admin/download?file=Certificates%2FLOMA281%20Certificate.pdf",
+      "file": "LOMA281 Certificate.pdf"
+    },
+    {
+      "id": "10",
+      "name": "Microsoft Certified: Azure AI Engineer Associate (AI-102)",
+      "issuer": "Microsoft",
+      "date": "2024",
+      "url": "/api/admin/download?file=Certificates%2FAI102_Certificate.pdf",
+      "file": "AI102_Certificate.pdf"
+    },
+    {
+      "id": "11",
+      "name": "Microsoft Certified: Fabric Data Engineer Associate (DP-700)",
+      "issuer": "Microsoft",
+      "date": "2025",
+      "url": "https://drive.google.com/file/d/1apxJYmbDem_-M8XAiIRIwgFXJvgLGqXT/view",
+      "file": "DP700.pdf"
+    },
+    {
+      "id": "12",
+      "name": "Microsoft Certified: Power Platform Developer Associate (PL-400)",
+      "issuer": "Microsoft",
+      "date": "2025",
+      "url": "https://drive.google.com/file/d/1hKKGuk5GGL_4UPGS6I1x2fI07UkyutVI/view",
+      "file": "PL400.pdf"
+    },
+    {
+      "id": "13",
+      "name": "Databricks Certified Data Engineer Associate",
+      "issuer": "Databricks",
+      "date": "2025",
+      "url": "https://credentials.databricks.com/fc0f9e79-ef65-48d3-b4b9-9cb729d1bf3f",
+      "credentialId": "fc0f9e79-ef65-48d3-b4b9-9cb729d1bf3f"
+    },
+    {
+      "id": "14",
+      "name": "SnowPro Core Certified",
+      "issuer": "Snowflake",
+      "date": "2025",
+      "url": "https://drive.google.com/file/d/1Q2wh_WeQZ3kvrywwUEhBn9wXF11jO33_/view",
+      "file": "Snowpro_Core.pdf"
+    },
+    {
+      "id": "15",
+      "name": "SQL Boot Camp Certificate",
+      "issuer": "Online Course",
+      "date": "2023",
+      "url": "https://drive.google.com/file/d/15pG8yFn1Fquz3LOZ3OO8nBD1ro93c5pX/view",
+      "file": "SQL_Bootcamp.pdf"
+    },
+    {
+      "id": "16",
+      "name": "Linux: The Complete Guide",
+      "issuer": "Online Course",
+      "date": "2023",
+      "url": "https://drive.google.com/file/d/1QsxQlXT2l4mohvv1S87MsFjFTc1Wgnsy/view",
+      "file": "Linux_Complete_Guide.pdf"
+    }
+  ],
+  "resumeFile": "Hrishabh_Tripathi_Data_Engineer.pdf",
+  "achievements": [
+    {
+      "id": "1",
+      "title": "FY24 Q4 Champs Award",
+      "description": "Received from DXC Technology Pvt Ltd for being one of the top performers",
+      "date": "2024",
+      "file": "FY24 Q4 Champs Award.pdf",
+      "url": "/api/admin/download?file=Achievements%2FFY24%20Q4%20Champs%20Award.pdf"
+    },
+    {
+      "id": "2",
+      "title": "5 Star Codechef",
+      "description": "Achieved 5-star rating on Codechef competitive programming platform",
+      "date": "2023"
+    }
+  ],
+  "languages": [
+    "English",
+    "Hindi",
+    "Tamil (basics)"
+  ]
+}

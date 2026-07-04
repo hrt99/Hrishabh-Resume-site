@@ -1,0 +1,90 @@
+{
+  "personalInfo": {
+    "name": "Hrishabh Tripathi",
+    "title": "Power BI Developer & Data Visualization Expert",
+    "email": "tripathihrishabh1@gmail.com",
+    "phone": "+91 9650133543",
+    "location": "Lucknow, India",
+    "linkedin": "https://in.linkedin.com/in/hrishabh-tripathi-969359188",
+    "github": "https://github.com/hrt99",
+    "summary": "Expert Power BI Developer with 3+ years of experience creating interactive dashboards, data models, and business intelligence solutions. Specialized in DAX, Power Query, and advanced visualization techniques with strong Azure integration capabilities."
+  },
+  "introLetter": "P",
+  "experience": [
+    {
+      "id": "1",
+      "company": "DXC Technology",
+      "position": "Power BI Developer & Data Analyst",
+      "duration": "Aug 2022 - Present",
+      "location": "Hybrid",
+      "description": [
+        "Expertise in Power BI for creating interactive dashboards and reports, providing valuable insights into business operations and facilitating data-driven decision-making",
+        "Developed comprehensive Power BI solutions integrating data from Azure SQL Database, Oracle, and various data sources",
+        "Created advanced DAX calculations and custom measures for complex business metrics and KPIs",
+        "Implemented Row-Level Security (RLS) for data governance and user access control",
+        "Automated recurring file validation and transformation tasks using VBA, Power Query, and PowerShell, saving over 90% of manual effort",
+        "Built interactive dashboards for SLA compliance tracking and trend analysis",
+        "Collaborated with business stakeholders to understand requirements and translate them into effective visualizations"
+      ],
+      "technologies": ["Power BI", "DAX", "Power Query", "Azure SQL Database", "Oracle Database", "VBA", "PowerShell", "Excel"]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Jaypee University of Information Technology",
+      "degree": "B.Tech (HONS) - Computer Science & Engineering",
+      "duration": "2018 - 2022",
+      "gpa": "8.5 CGPA"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Business Intelligence",
+      "skills": ["Power BI", "DAX", "Power Query", "Excel", "Tableau", "Looker"]
+    },
+    {
+      "category": "Data & Cloud", 
+      "skills": ["SQL", "Azure SQL Database", "Oracle Database", "Python", "VBA"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Power BI Dashboard for SLA Compliance and Trend Analysis",
+      "description": "Developed an interactive Power BI dashboard to track SLA (Service Level Agreement) compliance for incidents. Created dynamic reports showcasing SLA metrics and trend analysis over time. Utilized advanced DAX calculations for custom measures and implemented Row-Level Security (RLS) for data visibility control.",
+      "technologies": ["Power BI", "DAX", "SQL Server", "Excel", "Row-Level Security"]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "name": "Microsoft Power BI Data Analyst Associate (PL-300)",
+      "issuer": "Microsoft",
+      "date": "May 2025",
+      "expires": "May 2026",
+      "credentialId": "155Y77-5B5BDB",
+      "url": "/api/admin/download?file=Certificates%2FPL300.pdf",
+      "file": "PL300.pdf"
+    },
+    {
+      "id": "2",
+      "name": "Microsoft Azure Fundamentals (AZ-900)",
+      "issuer": "Microsoft",
+      "date": "Nov 2022",
+      "credentialId": "I487-8768",
+      "url": "/api/admin/download?file=Certificates%2FHrishabh%20AZ900.pdf",
+      "file": "Hrishabh AZ900.pdf"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "title": "FY24 Q4 Champs Award",
+      "description": "Received from DXC Technology Pvt Ltd for being one of the top performers",
+      "date": "2024",
+      "file": "FY24 Q4 Champs Award.pdf",
+      "url": "/api/admin/download?file=Achievements%2FFY24%20Q4%20Champs%20Award.pdf"
+    }
+  ]
+}

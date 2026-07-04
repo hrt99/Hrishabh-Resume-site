@@ -1,0 +1,360 @@
+{
+  "personalInfo": {
+    "name": "Hrishabh Tripathi",
+    "title": "Power bi",
+    "email": "tripathihrishabh1@gmail.com",
+    "phone": "+91 9650133543",
+    "location": "Lucknow, India",
+    "linkedin": "https://in.linkedin.com/in/hrishabh-tripathi-969359188",
+    "github": "https://github.com/hrt99",
+    "summary": "Power bi"
+  },
+  "experience": [
+    {
+      "id": "1",
+      "company": "DXC Technology",
+      "position": "Analyst 2 - Data Engineer",
+      "duration": "Aug 2022 - Present",
+      "location": "Hybrid",
+      "description": [
+        "Implemented Azure Data Factory for ETL processes, orchestrating data workflows across Azure services and on-premises sources, streamlining data pipeline processes",
+        "Monitored workflows and sessions meticulously, identifying and analyzing failures to enhance system reliability and ensure smooth operations",
+        "Achieved an overall 25% improvement in system performance and operational efficiency by optimizing Azure Data Factory workflows, enhancing resource management in Azure virtual machines, and refining data transformation processes in Azure Databricks",
+        "Managed Azure Cloud Services for infrastructure, provisioning virtual machines, storage accounts, and networking components to optimize system performance and cost efficiency",
+        "Utilized Azure Monitor for proactive monitoring of application health and performance metrics, ensuring rapid incident response and minimal downtime",
+        "Integrated Azure Databricks into data workflows to enable high-performance data processing and analytics, enhancing scalability for ETL pipelines",
+        "Managed and resolved technical issues across Production, Integration, and Development environments, ensuring continuous high availability and optimal system performance through Linux server management",
+        "Utilized Tidal and Control-M for job scheduling and SQL for data analysis, ensuring timely data loading and addressing user issues related to Apate, maintaining data integrity",
+        "Worked with Java Eclipse to handle frontend tasks such as XML processing, reviewed logs to identify and troubleshoot issues, and investigated Java code when required to resolve system-related problems",
+        "Ensured timely generation of extracts by monitoring rollups and fixing master ID issues, ensuring accurate and available data",
+        "Implemented Maintenance Task Instructions (MTIs) and Maintenance Task Plans (MTPs), analyzing and addressing support tickets to maintain seamless operations",
+        "Analyzed issues and recovered failed jobs in Oracle DB on Linux servers, ensuring timely data processing and coordination with source systems for file receipt",
+        "Addressed support tickets related to Customer/Partner Hierarchy, enhancing data accuracy and system functionality for improved business insights",
+        "Automated recurring file validation and transformation tasks using VBA, Power Query, and PowerShell for different workflows, collectively saving over 90% of manual effort and enabling faster issue resolution and reporting",
+        "Expertise in Power BI for creating interactive dashboards and reports, providing valuable insights into business operations and facilitating data-driven decision-making"
+      ],
+      "technologies": [
+        "Azure Data Factory",
+        "Azure Databricks",
+        "Azure Monitor",
+        "Azure SQL Database",
+        "Power BI",
+        "Oracle Database",
+        "Tidal",
+        "Control-M",
+        "Java Eclipse",
+        "PowerShell",
+        "VBA",
+        "Power Query",
+        "Linux",
+        "XML",
+        "SQL"
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Research Design and Standards Organization",
+      "position": "Data Intern",
+      "duration": "Jul 2021 - Aug 2021",
+      "description": [
+        "Worked on data analysis and research projects for government organization",
+        "Gained hands-on experience in data processing and statistical analysis techniques",
+        "Contributed to research initiatives and data-driven decision making processes"
+      ],
+      "technologies": [
+        "Data Analysis",
+        "Statistical Analysis",
+        "Research Methods",
+        "Excel"
+      ]
+    },
+    {
+      "id": "3",
+      "company": "Durapid Technologies Private Limited",
+      "position": "Web Development Intern",
+      "duration": "Feb 2021 - Apr 2021",
+      "description": [
+        "Designed and implemented webpages for startup clients according to specific requirements and business needs",
+        "Conferred with clients to discuss and determine optimal layout design and user experience",
+        "Researched new software technologies and design concepts to enhance development capabilities",
+        "Designed and implemented a Railway Reservation System to manage ticket bookings, cancellations, passenger records, and seat availability efficiently"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web Development",
+        "UI/UX Design",
+        "Database Management"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Jaypee University of Information Technology",
+      "degree": "B.Tech (HONS) - Computer Science & Engineering",
+      "duration": "2018 - 2022",
+      "gpa": "8.5 CGPA"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Cloud Computing Platforms",
+      "skills": [
+        "Microsoft Azure",
+        "AWS",
+        "Azure Data Factory",
+        "Azure Databricks",
+        "Azure Monitor",
+        "Azure SQL Database",
+        "Azure Data Lake Gen2",
+        "Azure Blob Storage",
+        "AWS Glue",
+        "AWS Redshift",
+        "AWS S3"
+      ]
+    },
+    {
+      "category": "Business Intelligence and Analytics",
+      "skills": [
+        "Power BI",
+        "Azure Synapse",
+        "Azure Databricks",
+        "Tableau",
+        "Looker",
+        "Grafana"
+      ]
+    },
+    {
+      "category": "Data Integration and ETL",
+      "skills": [
+        "Azure Data Factory",
+        "AWS Glue",
+        "Apache Airflow",
+        "Informatica PowerCenter",
+        "Informatica ETL",
+        "dbt",
+        "SSIS"
+      ]
+    },
+    {
+      "category": "Data Warehousing and Storage",
+      "skills": [
+        "Azure Data Lake Gen2",
+        "Azure Blob Storage",
+        "AWS S3",
+        "AWS Redshift",
+        "Snowflake",
+        "Azure SQL Database",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "category": "Job Scheduling and Automation",
+      "skills": [
+        "Azure Data Factory",
+        "Apache Airflow",
+        "Tidal",
+        "Control-M",
+        "PowerShell",
+        "Azure Logic Apps"
+      ]
+    },
+    {
+      "category": "Database Management",
+      "skills": [
+        "Azure SQL Database",
+        "Oracle Database Management",
+        "Oracle SQL Developer",
+        "SQL Server",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "category": "Programming Languages",
+      "skills": [
+        "Python",
+        "SQL",
+        "Java",
+        "PowerShell",
+        "VBA",
+        "Power Query",
+        "Bash",
+        "JavaScript",
+        "C#",
+        "Scala"
+      ]
+    },
+    {
+      "category": "Operating Systems & Tools",
+      "skills": [
+        "Linux",
+        "Windows Server",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Eclipse",
+        "Visual Studio Code"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Azure Data Factory for Data Engineers - Covid19 project",
+      "description": "Built and managed automated data pipelines using Azure Data Factory (ADF) to ingest, transform, and load COVID-19 data from external APIs and Azure Blob Storage into Azure Data Lake Gen2 and Azure SQL Database. Utilized ADF Mapping Data Flows for data transformations and orchestrated workflows using control flow activities.",
+      "technologies": [
+        "Azure Data Factory",
+        "Azure Databricks",
+        "Azure Data Lake Gen2",
+        "Azure SQL Database",
+        "Azure Monitor",
+        "Azure DevOps"
+      ],
+      "certificateUrl": "/api/admin/download?file=Projects%2FAzure%20Data%20factory%20Ramesh%20Retnasamy%20udemy%20completion%20certificate.jpg",
+      "certificateFile": "CertificateOfCompletion_Azure Data Factory.pdf",
+      "showCode": true,
+      "showLinks": true
+    },
+    {
+      "id": "2",
+      "title": "Power BI Dashboard for SLA Compliance and Trend Analysis",
+      "description": "Developed an interactive Power BI dashboard to track SLA (Service Level Agreement) compliance for incidents. Created dynamic reports showcasing SLA metrics and trend analysis over time. Utilized advanced DAX calculations for custom measures and implemented Row-Level Security (RLS) for data visibility control.",
+      "technologies": [
+        "Power BI",
+        "DAX",
+        "SQL Server",
+        "Excel",
+        "Row-Level Security"
+      ],
+      "showCode": false,
+      "showLinks": false
+    },
+    {
+      "id": "3",
+      "title": "Railway Reservation System",
+      "description": "Designed and implemented a Railway Reservation System to manage ticket bookings, cancellations, passenger records, and seat availability efficiently. Built with focus on data integrity and user experience.",
+      "technologies": [
+        "Java",
+        "Database Management",
+        "System Design"
+      ],
+      "showCode": false,
+      "showLinks": false
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "name": "Microsoft Azure Fundamentals (AZ-900)",
+      "issuer": "Microsoft",
+      "date": "Nov 2022",
+      "credentialId": "I487-8768",
+      "url": "/api/admin/download?file=Certificates%2FHrishabh%20AZ900.pdf",
+      "file": "Hrishabh AZ900.pdf"
+    },
+    {
+      "id": "2",
+      "name": "Microsoft Azure Data Fundamentals (DP-900)",
+      "issuer": "Microsoft",
+      "date": "Nov 2022",
+      "credentialId": "I499-6663",
+      "url": "/api/admin/download?file=Certificates%2FHrishabh%20DP900.pdf",
+      "file": "Hrishabh DP900.pdf"
+    },
+    {
+      "id": "3",
+      "name": "Microsoft Azure Data Engineer Associate (DP-203)",
+      "issuer": "Microsoft",
+      "date": "Sep 2024",
+      "expires": "Dec 2025",
+      "credentialId": "5848E05BD7CE06D0",
+      "url": "/api/admin/download?file=Certificates%2FDP203.pdf",
+      "file": "DP203.pdf"
+    },
+    {
+      "id": "4",
+      "name": "Microsoft Power BI Data Analyst Associate (PL-300)",
+      "issuer": "Microsoft",
+      "date": "May 2025",
+      "expires": "May 2026",
+      "credentialId": "155Y77-5B5BDB",
+      "url": "/api/admin/download?file=Certificates%2FPL300.pdf",
+      "file": "PL300.pdf"
+    },
+    {
+      "id": "5",
+      "name": "Microsoft Azure AI Fundamentals (AI-900)",
+      "issuer": "Microsoft",
+      "date": "Dec 2024",
+      "credentialId": "0543F0-22CD8L",
+      "url": "/api/admin/download?file=Certificates%2FAI900.pdf",
+      "file": "AI900.pdf"
+    },
+    {
+      "id": "6",
+      "name": "AWS Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "Mar 2024",
+      "expires": "Dec 2027",
+      "credentialId": "1aeac163493b4365bee282b5b0130469",
+      "url": "/api/admin/download?file=Certificates%2FAWS%20Certified%20Cloud%20Practitioner%20certificate.pdf",
+      "file": "AWS Certified Cloud Practitioner certificate.pdf"
+    },
+    {
+      "id": "7",
+      "name": "AWS Certified Data Engineer - Associate",
+      "issuer": "Amazon Web Services",
+      "date": "Dec 2024",
+      "expires": "Dec 2027",
+      "credentialId": "affd208538634faab21b74ee2ccd39d2",
+      "url": "/api/admin/download?file=Certificates%2FAWS%20Certified%20Data%20Engineer%20-%20Associate%20certificate.pdf",
+      "file": "AWS Certified Data Engineer - Associate certificate.pdf"
+    },
+    {
+      "id": "8",
+      "name": "AWS Certified AI Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "Jun 2025",
+      "expires": "Jun 2028",
+      "credentialId": "efa1a2c1bc254ad9accaab5a64e00415",
+      "url": "/api/admin/download?file=Certificates%2FAWS%20Certified%20AI%20Practitioner%20certificate.pdf",
+      "file": "AWS Certified AI Practitioner certificate.pdf"
+    },
+    {
+      "id": "9",
+      "name": "LOMA281 Certified",
+      "issuer": "LOMA",
+      "date": "Sep 2024",
+      "url": "/api/admin/download?file=Certificates%2FLOMA281%20Certificate.pdf",
+      "file": "LOMA281 Certificate.pdf"
+    }
+  ],
+  "resumeFile": "Hrishabh_Tripathi_Data_Engineer.pdf",
+  "achievements": [
+    {
+      "id": "1",
+      "title": "FY24 Q4 Champs Award",
+      "description": "Received from DXC Technology Pvt Ltd for being one of the top performers",
+      "date": "2024",
+      "file": "FY24 Q4 Champs Award.pdf",
+      "url": "/api/admin/download?file=Achievements%2FFY24%20Q4%20Champs%20Award.pdf"
+    },
+    {
+      "id": "2",
+      "title": "5 Star Codechef",
+      "description": "Achieved 5-star rating on Codechef competitive programming platform",
+      "date": "2023"
+    }
+  ],
+  "languages": [
+    "English",
+    "Hindi",
+    "Tamil (basics)"
+  ],
+  "introLetter": "H"
+}

@@ -1,0 +1,100 @@
+{
+  "personalInfo": {
+    "name": "Hrishabh Tripathi",
+    "title": "Data Engineer | ETL/ELT Developer | Cloud Specialist",
+    "email": "tripathihrishabh1@gmail.com",
+    "phone": "+91 9650133543",
+    "location": "Lucknow, India",
+    "linkedin": "https://in.linkedin.com/in/hrishabh-tripathi-969359188",
+    "github": "https://github.com/hrt99",
+    "summary": "Experienced Data Engineer with 3+ years of expertise in designing, implementing, and managing data solutions on Azure and AWS platforms. Skilled in ETL processes, data modeling, and creating scalable data workflows for business insights."
+  },
+  "introLetter": "D",
+  "experience": [
+    {
+      "id": "1",
+      "company": "DXC Technology",
+      "position": "Analyst 2 - Data Engineer",
+      "duration": "Aug 2022 - Present",
+      "location": "Hybrid",
+      "description": [
+        "Implemented Azure Data Factory for ETL processes, orchestrating data workflows across Azure services and on-premises sources",
+        "Achieved an overall 25% improvement in system performance and operational efficiency by optimizing data workflows",
+        "Managed Azure Cloud Services for infrastructure, provisioning virtual machines, storage accounts, and networking components",
+        "Integrated Azure Databricks into data workflows to enable high-performance data processing and analytics",
+        "Utilized Tidal and Control-M for job scheduling and SQL for data analysis, ensuring timely data loading",
+        "Automated recurring file validation and transformation tasks using VBA, Power Query, and PowerShell"
+      ],
+      "technologies": ["Azure Data Factory", "Azure Databricks", "Python", "SQL", "Power BI", "Oracle Database", "Control-M", "PowerShell"]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Jaypee University of Information Technology",
+      "degree": "B.Tech (HONS) - Computer Science & Engineering",
+      "duration": "2018 - 2022",
+      "gpa": "8.5 CGPA"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Data Engineering",
+      "skills": ["Azure Data Factory", "ETL/ELT", "Data Pipelines", "Data Modeling", "Apache Airflow"]
+    },
+    {
+      "category": "Cloud & Analytics",
+      "skills": ["Azure", "AWS", "Power BI", "Python", "SQL", "Databricks"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Azure Data Factory for Data Engineers - Covid19 project",
+      "description": "Built and managed automated data pipelines using Azure Data Factory (ADF) to ingest, transform, and load COVID-19 data from external APIs and Azure Blob Storage into Azure Data Lake Gen2 and Azure SQL Database.",
+      "technologies": ["Azure Data Factory", "Azure Databricks", "Azure Data Lake Gen2", "Azure SQL Database"]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "name": "Microsoft Azure Data Engineer Associate (DP-203)",
+      "issuer": "Microsoft",
+      "date": "Sep 2024",
+      "expires": "Dec 2025",
+      "credentialId": "5848E05BD7CE06D0",
+      "url": "/api/admin/download?file=Certificates%2FDP203.pdf",
+      "file": "DP203.pdf"
+    },
+    {
+      "id": "2",
+      "name": "AWS Certified Data Engineer - Associate",
+      "issuer": "Amazon Web Services",
+      "date": "Dec 2024",
+      "expires": "Dec 2027",
+      "credentialId": "affd208538634faab21b74ee2ccd39d2",
+      "url": "/api/admin/download?file=Certificates%2FAWS%20Certified%20Data%20Engineer%20-%20Associate%20certificate.pdf",
+      "file": "AWS Certified Data Engineer - Associate certificate.pdf"
+    },
+    {
+      "id": "3",
+      "name": "Microsoft Power BI Data Analyst Associate (PL-300)",
+      "issuer": "Microsoft",
+      "date": "May 2025",
+      "expires": "May 2026",
+      "credentialId": "155Y77-5B5BDB",
+      "url": "/api/admin/download?file=Certificates%2FPL300.pdf",
+      "file": "PL300.pdf"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "title": "FY24 Q4 Champs Award",
+      "description": "Received from DXC Technology Pvt Ltd for being one of the top performers",
+      "date": "2024",
+      "file": "FY24 Q4 Champs Award.pdf",
+      "url": "/api/admin/download?file=Achievements%2FFY24%20Q4%20Champs%20Award.pdf"
+    }
+  ]
+}
