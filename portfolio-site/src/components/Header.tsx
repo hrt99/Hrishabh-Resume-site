@@ -41,9 +41,12 @@ export default function Header() {
           >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
           </button>
-          <div className="text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300 cursor-pointer">
+          <a 
+            href="#top"
+            className="text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300 cursor-pointer"
+          >
             Hrishabh Tripathi
-          </div>
+          </a>
         </div>
 
         {/* Desktop Navigation */}

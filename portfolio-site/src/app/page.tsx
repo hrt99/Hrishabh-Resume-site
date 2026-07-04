@@ -49,7 +49,7 @@ export default async function Home() {
 
   return (
     <IntroWrapper>
-      <main className="min-h-screen relative">
+      <main id="top" className="min-h-screen relative">
         <ParticleBackground />
         <Header />
         <MouseSparkles />
