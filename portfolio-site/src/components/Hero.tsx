@@ -76,7 +76,7 @@ export default function Hero({ personalInfo, roleResume }: HeroProps) {
                   </span>
                 ))}
               </h2>
-              <p className="text-base sm:text-lg lg:text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl font-medium bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm p-4 lg:p-6 rounded-xl border border-gray-200 dark:border-gray-700 text-justify">
+              <p className="text-base sm:text-lg lg:text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl font-medium bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm p-4 lg:p-6 rounded-xl border border-gray-200 dark:border-gray-700">
                 {personalInfo.summary}
               </p>
             </div>

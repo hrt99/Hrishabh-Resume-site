@@ -73,7 +73,7 @@ export default function RecruiterHighlights() {
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                 {highlight.title}
               </h3>
-              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed text-justify">
+              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
                 {highlight.description}
               </p>
             </div>
