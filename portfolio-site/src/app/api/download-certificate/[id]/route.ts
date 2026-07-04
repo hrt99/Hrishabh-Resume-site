@@ -24,7 +24,7 @@ export async function GET(
     try {
       const fileBuffer = await fs.readFile(filePath)
       
-      return new NextResponse(fileBuffer, {
+      return new NextResponse(new Blob([Uint8Array.from(fileBuffer)]), {
         headers: {
           'Content-Type': 'application/pdf',
           'Content-Disposition': `attachment; filename="${certificate.file}"`,
