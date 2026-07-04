@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 
+// Only include technologies that are ACTUALLY in the user's experience/portfolio
 const techCategories = {
   'Cloud Platforms': [
     { name: 'AZURE.png', title: 'Microsoft Azure', color: 'from-blue-500 to-cyan-500' },
@@ -22,10 +23,10 @@ const techCategories = {
   ],
   'ETL & Orchestration': [
     { name: 'AIRFLOW.png', title: 'Apache Airflow', color: 'from-teal-500 to-green-500' },
-    { name: 'INFORMATICA.png', title: 'Informatica', color: 'from-purple-600 to-pink-600' },
+    { name: 'INFORMATICA.png', title: 'Informatica PowerCenter', color: 'from-purple-600 to-pink-600' },
     { name: 'CONTROL M.png', title: 'Control-M', color: 'from-indigo-600 to-purple-600' }
   ],
-  'Development Tools': [
+  'Development & Operations': [
     { name: 'LINUX.jpg', title: 'Linux', color: 'from-gray-800 to-black' },
     { name: 'ECLIPSE.png', title: 'Eclipse IDE', color: 'from-purple-700 to-indigo-700' },
     { name: 'JIRA.jpg', title: 'Jira', color: 'from-blue-600 to-indigo-600' }
@@ -96,7 +97,7 @@ export default function SkillsWithLogos({ skills }: SkillsWithLogosProps) {
                 {category === 'Programming & Scripting' && '💻'}
                 {category === 'Data & Analytics' && '📊'}
                 {category === 'ETL & Orchestration' && '🔄'}
-                {category === 'Development Tools' && '🛠️'}
+                {category === 'Development & Operations' && '🛠️'}
                 {' '}{category}
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
