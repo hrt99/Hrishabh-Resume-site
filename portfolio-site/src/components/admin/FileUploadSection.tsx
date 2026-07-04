@@ -5,7 +5,7 @@ import DragDropUpload from './DragDropUpload'
 import { FileText, Award, Download, Trash2 } from 'lucide-react'
 
 interface FileUploadSectionProps {
-  onFileUpload: (file: File, type: 'resume' | 'certificate') => void
+  onFileUpload: (file: File, type: 'resume' | 'certificate' | 'achievement' | 'project') => void
   resumeFile?: string
   certificates?: Array<{ id: string; name: string; file?: string }>
 }
@@ -13,7 +13,7 @@ interface FileUploadSectionProps {
 export default function FileUploadSection({ onFileUpload, resumeFile, certificates = [] }: FileUploadSectionProps) {
   const [uploadedFiles, setUploadedFiles] = useState<{ [key: string]: File }>({})
 
-  const handleFileUpload = (file: File, type: 'resume' | 'certificate') => {
+  const handleFileUpload = (file: File, type: 'resume' | 'certificate' | 'achievement' | 'project') => {
     const key = `${type}-${Date.now()}`
     setUploadedFiles(prev => ({ ...prev, [key]: file }))
     onFileUpload(file, type)
