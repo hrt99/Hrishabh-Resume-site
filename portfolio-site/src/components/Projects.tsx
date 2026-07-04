@@ -49,7 +49,7 @@ export default function Projects({ projects }: ProjectsProps) {
                   {project.title}
                 </h3>
 
-                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-justify hyphens-auto">
                   {project.description}
                 </p>
 

@@ -75,7 +75,7 @@ export default async function Home() {
                   <span key={index} className="inline-block">
                     <span className="whitespace-nowrap">{part.trim()}</span>
                     {index < array.length - 1 && (
-                      <span className="text-xs mx-1 text-blue-300/30 font-light"> | </span>
+                      <span className="text-sm mx-1 text-blue-300/40 font-light"> | </span>
                     )}
                   </span>
                 ))}
