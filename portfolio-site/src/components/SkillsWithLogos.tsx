@@ -32,6 +32,9 @@ const techCategories = {
     { name: 'LINUX.jpg', title: 'Linux', color: 'from-gray-800 to-black' },
     { name: 'ECLIPSE.png', title: 'Eclipse IDE', color: 'from-purple-700 to-indigo-700' },
     { name: 'JIRA.jpg', title: 'Jira', color: 'from-blue-600 to-indigo-600' }
+  ],
+  'Mainframe': [
+    { name: 'IBM Zos.jpg', title: 'IBM z/OS', color: 'from-blue-800 to-gray-700' }
   ]
 }
 
