@@ -49,7 +49,7 @@ export default async function Home() {
 
   return (
     <IntroWrapper>
-      <main id="top" className="min-h-screen relative">
+      <main id="top" className="min-h-screen relative overflow-x-hidden w-full">
         <ParticleBackground />
         <Header />
         <MouseSparkles />
@@ -74,7 +74,7 @@ export default async function Home() {
                 {portfolioData.personalInfo.title}
               </p>
             </div>
-            <div className="flex justify-center space-x-6 mb-6">
+            <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-6">
               {[
                 { logo: 'AZURE.png', name: 'Azure' },
                 { logo: 'AWS.png', name: 'AWS' },

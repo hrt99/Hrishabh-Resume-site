@@ -49,32 +49,32 @@ export default function Hero({ personalInfo, roleResume }: HeroProps) {
       </div>
       
       <div className="container-max relative z-10">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="space-y-8 animate-slide-left hero-content">
-            <div className="space-y-6">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+          <div className="space-y-6 lg:space-y-8 animate-slide-left hero-content">
+            <div className="space-y-4 lg:space-y-6">
               <div className="inline-block">
-                <span className="px-6 py-3 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm border border-blue-200 dark:border-blue-700 text-gray-800 dark:text-white rounded-full text-base font-semibold mb-6 inline-block shadow-lg">
+                <span className="px-4 lg:px-6 py-2 lg:py-3 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm border border-blue-200 dark:border-blue-700 text-gray-800 dark:text-white rounded-full text-sm lg:text-base font-semibold mb-4 lg:mb-6 inline-block shadow-lg">
                   👋 Welcome to my portfolio
                 </span>
               </div>
-              <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 dark:text-white leading-tight">
                 Hi, I'm{' '}
                 <span className="relative inline-block">
-                  <span className="bg-gradient-to-r from-slate-700 via-blue-700 to-slate-700 bg-clip-text text-transparent font-extrabold relative z-10">
+                  <span className="bg-gradient-to-r from-slate-700 via-blue-700 to-slate-700 bg-clip-text text-transparent font-extrabold relative z-10 break-words">
                     {personalInfo.name}
                   </span>
                   <div className="absolute -inset-1 bg-gradient-to-r from-blue-600/10 to-slate-600/10 rounded blur-sm"></div>
                 </span>
               </h1>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-700 dark:text-gray-300 animate-slide-up" style={{animationDelay: '0.2s'}}>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-700 dark:text-gray-300 animate-slide-up" style={{animationDelay: '0.2s'}}>
                 {personalInfo.title}
               </h2>
-              <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl font-medium bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-200 dark:border-gray-700">
+              <p className="text-base sm:text-lg lg:text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl font-medium bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm p-4 lg:p-6 rounded-xl border border-gray-200 dark:border-gray-700">
                 {personalInfo.summary}
               </p>
             </div>
 
-            <div className="flex flex-wrap gap-6">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4 lg:gap-6">
               <a href="#contact" className="btn-primary group animate-float-up" style={{animationDelay: '0.6s'}}>
                 <Mail size={20} className="group-hover:rotate-12 transition-transform" />
                 Get In Touch
@@ -134,12 +134,12 @@ export default function Hero({ personalInfo, roleResume }: HeroProps) {
           </div>
 
           <div className="flex justify-center lg:justify-end animate-slide-right">
-            <div className="relative">
+            <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
               {/* Floating background elements */}
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full animate-pulse opacity-20"></div>
               <div className="absolute inset-2 bg-gradient-to-br from-purple-400 to-pink-600 rounded-full animate-pulse opacity-30" style={{animationDelay: '1s'}}></div>
               
-              <div className="relative w-96 h-96 gradient-border-animated rounded-full flex items-center justify-center p-1 floating">
+              <div className="relative w-full h-full gradient-border-animated rounded-full flex items-center justify-center p-1 floating">
                 <div className="w-full h-full bg-gradient-to-br from-blue-500 via-purple-600 to-pink-600 rounded-full flex items-center justify-center p-2 animate-gradient-shift">
                   {personalInfo.profileImage ? (
                     <img
@@ -158,12 +158,14 @@ export default function Hero({ personalInfo, roleResume }: HeroProps) {
               </div>
               
               {/* Enhanced Status indicator */}
-              <div className="absolute -bottom-6 -right-6 px-6 py-3 bg-green-600/90 backdrop-blur-sm rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg animate-float-up border border-green-500">
-                <div className="w-3 h-3 bg-green-300 rounded-full mr-2 animate-ping"></div>
-                <span className="text-white font-semibold">Available for Work</span>
+              <div className="absolute -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 px-3 py-2 sm:px-6 sm:py-3 bg-green-600/90 backdrop-blur-sm rounded-full flex items-center justify-center text-white font-bold text-xs sm:text-base lg:text-lg shadow-lg animate-float-up border border-green-500">
+                <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-300 rounded-full mr-2 animate-ping"></div>
+                <span className="text-white font-semibold hidden sm:inline">Available for Work</span>
+                <span className="text-white font-semibold sm:hidden">Available</span>
               </div>
               
-              {/* Professional Tech Logos */}
+              {/* Professional Tech Logos - Hidden on mobile to prevent overflow */}
+              <div className="hidden md:block">
               <div className="absolute -top-8 -left-8 w-16 h-16 bg-white dark:bg-gray-800 rounded-2xl flex items-center justify-center shadow-xl hover:shadow-2xl transition-all duration-300 animate-glow cloud-float border-2 border-blue-200 dark:border-blue-800" style={{animationDelay: '0.5s'}} title="Microsoft Azure">
                 <div className="w-10 h-10 relative">
                   <Image src="/Skill Images/AZURE.png" alt="Azure" fill className="object-contain" />
@@ -202,6 +204,7 @@ export default function Hero({ personalInfo, roleResume }: HeroProps) {
               <div className="absolute bottom-8 -left-4 w-12 h-12 bg-white dark:bg-gray-800 rounded-xl flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 data-pulse border-2 border-gray-200 dark:border-gray-600" style={{animationDelay: '6s'}} title="SQL Database">
                 <div className="w-8 h-8 relative">
                   <Image src="/Skill Images/SQL.png" alt="SQL" fill className="object-contain" />
+              </div>
                 </div>
               </div>
             </div>
