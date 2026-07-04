@@ -14,9 +14,9 @@ export default function DownloadButton({ className = '', children, showText = fa
   const [downloadSuccess, setDownloadSuccess] = useState(false)
 
   const handleDownload = () => {
-    // Direct link to file in public/uploads folder
+    // Direct download link
     const link = document.createElement('a')
-    link.href = '/uploads/Hrishabh_Tripathi_Data_Engineer.pdf'
+    link.href = '/Hrishabh_Tripathi_Data_Engineer.pdf'
     link.download = 'Hrishabh_Tripathi_Data_Engineer.pdf'
     document.body.appendChild(link)
     link.click()
