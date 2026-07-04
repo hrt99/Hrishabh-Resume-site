@@ -14,7 +14,14 @@ export default function DownloadButton({ className = '', children, showText = fa
   const [downloadSuccess, setDownloadSuccess] = useState(false)
 
   const handleDownload = () => {
-    window.open('/api/download-resume', '_blank')
+    // Direct link to file in public/uploads folder
+    const link = document.createElement('a')
+    link.href = '/uploads/Hrishabh_Tripathi_Data_Engineer.pdf'
+    link.download = 'Hrishabh_Tripathi_Data_Engineer.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+    
     setDownloadSuccess(true)
     setTimeout(() => setDownloadSuccess(false), 3000)
   }
