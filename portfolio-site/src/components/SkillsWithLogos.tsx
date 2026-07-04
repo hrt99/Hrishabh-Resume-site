@@ -3,28 +3,29 @@
 import { useState } from 'react'
 import Image from 'next/image'
 
-// Only include technologies that are ACTUALLY in the user's experience/portfolio
+// Map of technologies from YOUR ACTUAL resume with available logo images
 const techCategories = {
   'Cloud Platforms': [
     { name: 'AZURE.png', title: 'Microsoft Azure', color: 'from-blue-500 to-cyan-500' },
     { name: 'AWS.png', title: 'Amazon Web Services', color: 'from-orange-500 to-yellow-500' }
+  ],
+  'Data & Analytics Platforms': [
+    { name: 'DATABRICKS.png', title: 'Azure Databricks', color: 'from-red-500 to-orange-500' },
+    { name: 'SNOWFLAKE.png', title: 'Snowflake', color: 'from-cyan-400 to-blue-500' },
+    { name: 'POWER BI.png', title: 'Power BI', color: 'from-yellow-500 to-orange-500' },
+    { name: 'ORACLE.png', title: 'Oracle Database', color: 'from-red-600 to-red-700' }
+  ],
+  'ETL & Orchestration': [
+    { name: 'AIRFLOW.png', title: 'Apache Airflow', color: 'from-teal-500 to-green-500' },
+    { name: 'INFORMATICA.png', title: 'Informatica PowerCenter', color: 'from-purple-600 to-pink-600' },
+    { name: 'CONTROL M.png', title: 'Control-M', color: 'from-indigo-600 to-purple-600' },
+    { name: 'Power Automate.png', title: 'Power Automate', color: 'from-blue-500 to-purple-500' }
   ],
   'Programming & Scripting': [
     { name: 'PYTHON.jpg', title: 'Python', color: 'from-blue-600 to-yellow-400' },
     { name: 'SQL.png', title: 'SQL', color: 'from-gray-600 to-blue-600' },
     { name: 'POWERSHELL.png', title: 'PowerShell', color: 'from-blue-700 to-indigo-600' },
     { name: 'VBA.png', title: 'VBA', color: 'from-green-600 to-blue-600' }
-  ],
-  'Data & Analytics': [
-    { name: 'POWER BI.png', title: 'Power BI', color: 'from-yellow-500 to-orange-500' },
-    { name: 'DATABRICKS.png', title: 'Azure Databricks', color: 'from-red-500 to-orange-500' },
-    { name: 'SNOWFLAKE.png', title: 'Snowflake', color: 'from-cyan-400 to-blue-500' },
-    { name: 'ORACLE.png', title: 'Oracle Database', color: 'from-red-600 to-red-700' }
-  ],
-  'ETL & Orchestration': [
-    { name: 'AIRFLOW.png', title: 'Apache Airflow', color: 'from-teal-500 to-green-500' },
-    { name: 'INFORMATICA.png', title: 'Informatica PowerCenter', color: 'from-purple-600 to-pink-600' },
-    { name: 'CONTROL M.png', title: 'Control-M', color: 'from-indigo-600 to-purple-600' }
   ],
   'Development & Operations': [
     { name: 'LINUX.jpg', title: 'Linux', color: 'from-gray-800 to-black' },
@@ -94,9 +95,9 @@ export default function SkillsWithLogos({ skills }: SkillsWithLogosProps) {
             <div key={category} className="animate-slide-up" style={{ animationDelay: `${categoryIndex * 0.2}s` }}>
               <h3 className="text-2xl font-bold text-center mb-8 text-gray-800 dark:text-white">
                 {category === 'Cloud Platforms' && '☁️'}
-                {category === 'Programming & Scripting' && '💻'}
-                {category === 'Data & Analytics' && '📊'}
+                {category === 'Data & Analytics Platforms' && '📊'}
                 {category === 'ETL & Orchestration' && '🔄'}
+                {category === 'Programming & Scripting' && '💻'}
                 {category === 'Development & Operations' && '🛠️'}
                 {' '}{category}
               </h3>
