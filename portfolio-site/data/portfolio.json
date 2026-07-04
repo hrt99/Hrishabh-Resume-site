@@ -438,6 +438,14 @@
   "achievements": [
     {
       "id": "1",
+      "title": "FY26 H1 Champions Award",
+      "description": "Received from DXC Technology Pvt Ltd for outstanding performance and contributions",
+      "date": "2026",
+      "file": "Hrishabh Tripathi_FY26 H1 Champions Award.pdf",
+      "url": "/api/admin/download?file=Achievements%2FHrishabh%20Tripathi_FY26%20H1%20Champions%20Award.pdf"
+    },
+    {
+      "id": "2",
       "title": "FY24 Q4 Champs Award",
       "description": "Received from DXC Technology Pvt Ltd for being one of the top performers",
       "date": "2024",
@@ -445,7 +453,7 @@
       "url": "/api/admin/download?file=Achievements%2FFY24%20Q4%20Champs%20Award.pdf"
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "5 Star Codechef",
       "description": "Achieved 5-star rating on Codechef competitive programming platform",
       "date": "2023"
