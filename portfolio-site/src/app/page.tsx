@@ -71,7 +71,14 @@ export default async function Home() {
                 {portfolioData.personalInfo.name}
               </h3>
               <p className="text-blue-200 animate-wave">
-                {portfolioData.personalInfo.title}
+                {portfolioData.personalInfo.title.split('|').map((part, index, array) => (
+                  <span key={index}>
+                    {part.trim()}
+                    {index < array.length - 1 && (
+                      <span className="text-sm mx-2 text-blue-300/50">|</span>
+                    )}
+                  </span>
+                ))}
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-6">
