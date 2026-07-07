@@ -16,8 +16,8 @@ export default function DownloadButton({ className = '', children, showText = fa
   const handleDownload = () => {
     // Direct download link
     const link = document.createElement('a')
-    link.href = '/Hrishabh_Tripathi_Data_Engineer.pdf'
-    link.download = 'Hrishabh_Tripathi_Data_Engineer.pdf'
+    link.href = '/Hrishabh_Tripathi_Data Engineer.pdf'
+    link.download = 'Hrishabh_Tripathi_Data Engineer.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
