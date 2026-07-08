@@ -7,6 +7,7 @@
     "location": "Lucknow, India",
     "linkedin": "https://in.linkedin.com/in/hrishabh-tripathi-969359188",
     "github": "https://github.com/hrt99",
+    "accredible": "https://www.credential.net/profile/hrishabhtripathi310650/wallet",
     "summary": "Experienced Data Engineer and BI & Analytics professional with 3+ years of experience designing scalable ETL/ELT pipelines, data warehouses, and analytics solutions. Skilled in Azure Data Factory, Azure Databricks, Snowflake, PySpark, and advanced SQL for building reliable, high-performance data platforms. Strong background in data modeling, workflow orchestration, cloud technologies, and production support across enterprise environments."
   },
   "experience": [
@@ -330,7 +331,7 @@
       "id": "3",
       "name": "Microsoft Azure Data Engineer Associate (DP-203)",
       "issuer": "Microsoft",
-      "date": "Sep 2024",
+      "date": "Sep 2022",
       "expires": "Dec 2025",
       "credentialId": "5848E05BD7CE06D0",
       "url": "/api/admin/download?file=Certificates%2FDP203.pdf",
@@ -389,7 +390,7 @@
       "id": "9",
       "name": "LOMA281 Certified",
       "issuer": "LOMA",
-      "date": "Sep 2024",
+      "date": "Sep 2025",
       "url": "/api/admin/download?file=Certificates%2FLOMA281%20Certificate.pdf",
       "file": "LOMA281 Certificate.pdf"
     },
@@ -397,7 +398,7 @@
       "id": "10",
       "name": "Microsoft Certified: Azure AI Engineer Associate (AI-102)",
       "issuer": "Microsoft",
-      "date": "2024",
+      "date": "2025",
       "url": "/api/admin/download?file=Certificates%2FAI102_Certificate.pdf",
       "file": "AI102_Certificate.pdf"
     },
@@ -405,7 +406,7 @@
       "id": "11",
       "name": "Microsoft Certified: Fabric Data Engineer Associate (DP-700)",
       "issuer": "Microsoft",
-      "date": "2025",
+      "date": "2026",
       "url": "https://drive.google.com/file/d/1YQt_O0kS9j4Cy9Hf6UCZYoEKMw_8Q9GC/view?usp=sharing",
       "credentialId": "5E142847BE2FD31C",
       "certNumber": "22C431-54B006",
