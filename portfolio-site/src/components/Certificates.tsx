@@ -1,13 +1,14 @@
 'use client'
 
-import { Certificate } from '@/lib/types'
+import { Certificate, PersonalInfo } from '@/lib/types'
 import { Award, Download, ExternalLink, Calendar } from 'lucide-react'
 
 interface CertificatesProps {
   certificates: Certificate[]
+  personalInfo?: PersonalInfo
 }
 
-export default function Certificates({ certificates }: CertificatesProps) {
+export default function Certificates({ certificates, personalInfo }: CertificatesProps) {
   console.log('Certificates data:', certificates);
   return (
     <section id="certificates" className="section-padding">
@@ -96,6 +97,24 @@ export default function Certificates({ certificates }: CertificatesProps) {
             </div>
           ))}
         </div>
+
+        {personalInfo?.accredible && (
+          <div className="mt-12 text-center">
+            <a
+              href={personalInfo.accredible}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary-600 to-purple-600 hover:from-primary-700 hover:to-purple-700 text-white font-semibold rounded-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+            >
+              <Award size={24} />
+              <span>View More Credentials on Accredible</span>
+              <ExternalLink size={20} />
+            </a>
+            <p className="text-gray-600 dark:text-gray-400 text-sm mt-4">
+              Additional certifications and digital badges available on my Accredible profile
+            </p>
+          </div>
+        )}
 
         {certificates.length === 0 && (
           <div className="text-center py-12">

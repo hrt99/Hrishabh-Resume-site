@@ -74,7 +74,7 @@ export default async function RolePage({ params }: { params: { role: string } })
         <SkillsWithLogos skills={portfolioData.skills} />
         <Projects projects={portfolioData.projects} />
         <Achievements achievements={portfolioData.achievements || []} />
-        <Certificates certificates={portfolioData.certificates || []} />
+        <Certificates certificates={portfolioData.certificates || []} personalInfo={portfolioData.personalInfo} />
         <Contact personalInfo={portfolioData.personalInfo} />
         
         <footer className="relative bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-12 overflow-hidden">

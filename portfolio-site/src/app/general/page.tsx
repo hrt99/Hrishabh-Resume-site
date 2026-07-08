@@ -61,7 +61,7 @@ export default async function Home() {
         <SkillsWithLogos skills={portfolioData.skills} />
         <Projects projects={portfolioData.projects} />
         <Achievements achievements={portfolioData.achievements || []} />
-        <Certificates certificates={portfolioData.certificates} />
+        <Certificates certificates={portfolioData.certificates} personalInfo={portfolioData.personalInfo} />
         <Contact personalInfo={portfolioData.personalInfo} />
       
       {/* Footer */}

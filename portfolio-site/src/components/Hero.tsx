@@ -120,6 +120,7 @@ export default function Hero({ personalInfo, roleResume }: HeroProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg hover:bg-primary-600 hover:text-white transition-colors"
+                title="LinkedIn Profile"
               >
                 <Linkedin size={20} />
               </a>
@@ -128,12 +129,14 @@ export default function Hero({ personalInfo, roleResume }: HeroProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg hover:bg-primary-600 hover:text-white transition-colors"
+                title="GitHub Profile"
               >
                 <Github size={20} />
               </a>
               <a
                 href={`mailto:${personalInfo.email}`}
                 className="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg hover:bg-primary-600 hover:text-white transition-colors"
+                title="Email"
               >
                 <Mail size={20} />
               </a>
