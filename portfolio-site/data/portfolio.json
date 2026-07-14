@@ -8,7 +8,7 @@
     "linkedin": "https://in.linkedin.com/in/hrishabh-tripathi-969359188",
     "github": "https://github.com/hrt99",
     "accredible": "https://www.credential.net/profile/hrishabhtripathi310650/wallet",
-    "summary": "Experienced Data Engineer and BI & Analytics professional with 3+ years of experience designing scalable ETL/ELT pipelines, data warehouses, and analytics solutions. Skilled in Azure Data Factory, Azure Databricks, Snowflake, PySpark, and advanced SQL for building reliable, high-performance data platforms. Strong background in data modeling, workflow orchestration, cloud technologies, and production support across enterprise environments."
+    "summary": "Experienced Data Engineer and BI & Analytics professional with ~4 years of experience designing scalable ETL/ELT pipelines, data warehouses, and analytics solutions. Skilled in Azure Data Factory, Azure Databricks, Snowflake, PySpark, and advanced SQL for building reliable, high-performance data platforms. Strong background in data modeling, workflow orchestration, cloud technologies, and production support across enterprise environments."
   },
   "experience": [
     {
@@ -18,21 +18,22 @@
       "duration": "Aug 2022 - Present",
       "location": "Hybrid",
       "description": [
-        "Designed and implemented scalable ETL/ELT pipelines using Azure Data Factory and Informatica to ingest data from multiple on-premises and cloud sources into Azure Data Lake and downstream data stores for analytics and reporting",
-        "Automated and optimized data workflows using Azure Data Factory pipelines, significantly improving orchestration efficiency, minimizing manual intervention, and ensuring timely data availability for downstream systems",
-        "Monitored and maintained data pipelines across Development, Integration, and Production environments, ensuring high reliability, availability, and strict adherence to SLAs",
-        "Improved data processing performance by 25% through advanced SQL optimization, efficient transformation logic, and workload tuning across Azure SQL and Snowflake environments",
-        "Leveraged Snowflake for data warehousing by designing and managing tables, developing complex SQL queries, and delivering curated, analysis-ready datasets for reporting and BI consumption",
-        "Integrated and transformed data from diverse sources into Snowflake using SQL joins, data modeling techniques, and structured transformations to ensure high-quality, analytics-ready datasets",
-        "Utilized Azure Databricks for large-scale data transformation and processing, implementing PySpark operations to efficiently handle complex data workloads",
-        "Led migration of data from on-premises systems to Azure cloud platforms including Azure Blob Storage and Azure Data Lake, ensuring data integrity, scalability, and efficient storage management",
-        "Designed and developed robust automation solutions using Python (Tkinter, ttkbootstrap), Selenium, Power Query, VBA, and SQL scripts, reducing manual effort by over 90% and improving operational efficiency",
-        "Developed and maintained enterprise Power BI dashboards and reports including Incident Management, Jira Tracking, Resource Utilization, Resource Tracker, Innovation Program Tracker, WBS Tracker, Account Demand Tracker, and Change Project Tracker to support business and operational decision-making",
-        "Designed, published, and managed a centralized Power BI App to consolidate reporting solutions, automate refresh processes, streamline user access, and improve report governance across stakeholders",
-        "Developed automated Incident and RITM alerting solutions using Power Automate and Microsoft Teams, enabling real-time notifications and significantly improving response times for support teams",
-        "Implemented monitoring, logging, validation, and batch-tracking frameworks to ensure high data quality, reliable pipeline execution, proactive issue identification, and operational stability",
-        "Collaborated with cross-functional teams in an Agile environment using Jira, supporting DevOps-aligned practices including version control, deployment coordination, change management, structured release processes, and migration of source code repositories from CVS to Bitbucket to improve security compliance and support vulnerability remediation initiatives",
-        "Supported production incidents and change/release management activities, performing root cause analysis, environment validation, deployment support, and rapid issue resolution to ensure seamless business operations"
+        "Designed and implemented scalable ETL/ELT pipelines using Azure Data Factory and Informatica to ingest data from multiple on-premises and cloud sources into Azure Data Lake and downstream data stores, enabling reliable analytics, reporting, and business intelligence solutions.",
+        "Automated and optimized end-to-end data workflows using Azure Data Factory pipelines, improving orchestration efficiency, reducing manual intervention, and ensuring reliable, timely data delivery across enterprise applications and reporting systems.",
+        "Monitored and maintained data pipelines across Development, Integration, UAT, and Production environments, ensuring high availability, operational stability, and adherence to enterprise SLA requirements.",
+        "Improved data processing performance by 25% through advanced SQL optimization, transformation tuning, and workload optimization across Azure SQL and Snowflake environments.",
+        "Designed and developed Snowflake data warehouse solutions, including schema design, table management, complex SQL transformations, and data modeling to deliver curated, analytics-ready datasets for reporting and business intelligence.",
+        "Integrated and transformed data from diverse enterprise sources into Snowflake using SQL joins, data modeling techniques, and structured transformations, ensuring high-quality, trusted datasets for downstream consumption.",
+        "Utilized Azure Databricks and PySpark to develop scalable data transformation solutions, efficiently processing large-volume datasets and implementing complex business transformation logic.",
+        "Led migration of data from on-premises platforms to Azure cloud services including Azure Data Lake Gen2 and Azure Blob Storage, ensuring data integrity, scalability, security, and efficient storage management.",
+        "Designed and developed enterprise automation solutions using Python (Tkinter, ttkbootstrap), Selenium, Power Query, VBA, and SQL scripting, reducing manual effort by over 90%, improving productivity, and streamlining operational processes.",
+        "Developed and maintained enterprise Power BI dashboards and reporting solutions including Incident Management, Jira Tracking, Resource Utilization, Innovation Programs, WBS Tracking, Account Demand, and Change Management reporting, enabling data-driven business and operational decision-making.",
+        "Designed, published, and managed a centralized Power BI App to consolidate reporting solutions, automate dataset refreshes, streamline user access, and improve reporting governance across business stakeholders.",
+        "Developed automated Incident and RITM alerting solutions using Power Automate and Microsoft Teams, enabling real-time notifications, faster issue identification, and improved response times for support teams.",
+        "Orchestrated and monitored batch-processing workflows using Control-M and Tidal, managing complex job dependencies and ensuring reliable execution of critical business and data-processing workloads.",
+        "Implemented monitoring, logging, validation, reconciliation, and batch-tracking frameworks to ensure data quality, reliable pipeline execution, proactive issue detection, and operational stability.",
+        "Collaborated with cross-functional teams in Agile Scrum environments using Jira, supporting DevOps practices including version control, sprint planning, deployment coordination, release management, change implementation, and migration of source code repositories from CVS to Bitbucket to strengthen security compliance and support vulnerability remediation initiatives.",
+        "Supported production incidents, deployments, and change/release management activities by performing root cause analysis, environment validation, log analysis, and rapid issue resolution to ensure business continuity and system reliability."
       ],
       "technologies": [
         "Azure Data Factory",
@@ -215,6 +216,7 @@
       "skills": [
         "Azure OpenAI",
         "LLM & RAG",
+        "Agentic AI",
         "Azure AI Services",
         "Prompt Engineering"
       ]
